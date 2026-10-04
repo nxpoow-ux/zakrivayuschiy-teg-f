@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -11,8 +12,489 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header content-width">
+      <a class="header-logo" href="#" aria-label="На начало страницы"
+        >&lt;/HTML&gt;</a
+      >
+      <h1 class="header-title">Закрывающий тег</h1>
+    </header>
+
+    <main class="main-content content-width">
+      <article class="card">
+        <h2 class="card-title">
+          Фритрек и нулевой спринт: Подготовка к работе
+        </h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/image.png"
+            alt="Пиксельный фургон"
+          />
+          <span class="card-label" aria-hidden="true">Предвкушение</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            Это было самое начало пути. На этом этапе важно было проникнуться
+            основами и настроиться на учёбу. И, возможно, подумать, как новые
+            знания могут повлиять на ваше будущее.
+          </p>
+          <p>
+            Мысли о будущем только подталкивали продолжать учиться. Порой
+            настроиться на учебу было самой трудной задачей.
+          </p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">1 спринт: Я — чистый лист</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/cat-hard.png"
+            alt="Котёнок с надписью «Меня озадачивают задачи и затрудняют трудности»"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Первый шаг</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            На первых этапах мы работали со страхами и сомнениями, которые часто
+            испытывают новички. Один из них — страх перед чистым листом. Это,
+            конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим
+            ощущением скрываются более глубокие вопросы: с чего начать? а вдруг
+            будет слишком сложно? что, если я не справлюсь?
+          </p>
+          <p>Первые задания не давались легко: всё было новым и сложным.</p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">1 спринт: А если не получится?</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image animated-image"
+            src="./images/cat-happy.gif"
+            alt="Анимированный счастливый кот"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Смелее</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            Первый проект — позади! Но это всё ещё самое начало пути. Радость
+            могла быстро померкнуть и смениться ожиданием провала. Или вы,
+            наоборот, могли вдохновиться успехами и поверить в себя.
+          </p>
+          <p>
+            Даже после первого проекта сложности никуда не исчезли. Но я всегда
+            давал себе время разобраться и попробовать ещё раз.
+          </p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">2 спринт: Погоня за идеалом</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/cat-buisness.png"
+            alt="Кот в деловом костюме"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Без гонки</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
+            понять, как много ещё впереди. Вы могли попытаться погнаться за
+            идеалом и понять, что он недостижим. А, может, вы вовсе и не
+            подвержены перфекционизму и вместо того, чтобы сделать идеально,
+            старались просто сделать.
+          </p>
+          <p>
+            На каждом этапе обучения было важно научиться понимать каждый шаг и
+            постепенно делать лучше.
+          </p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">2 спринт: О тех, кто рядом</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image frog-image"
+            src="./images/frog-wednesday.png"
+            alt="Жаба с надписью «Среда, мои чуваки»"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Поддержка</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            Всё это время вы были не одиноки (хотя, возможно, иногда и
+            чувствовали, что одни против целого мира). Вас окружали
+            одногруппники, команда сопровождения и просто близкие люди, которым
+            можно пожаловаться, если очередной макет просто так не поддавался.
+            Осваивать что-то новое легче, когда рядом есть единомышленники, не
+            правда ли?
+          </p>
+          <p>Спасибо жабам по средам за поддержку!</p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">3 спринт: Обходные стратегии</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/cat-goose.png"
+            alt="Кот на спине гуся"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Другой путь</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            На этом курсе вы постоянно решали разные задачи. В какой-то момент
+            вам могло показаться, что решения просто иссякли. Значит, пришло
+            время посмотреть на задачу под другим углом.
+          </p>
+          <p>До начала обучения я даже не знал, что такие углы существуют (:</p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">3 спринт: Когда опускаются руки</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/joji.png"
+            alt="Обложки альбомов исполнителя Joji"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Передышка</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            Во время учёбы часто возникает чувство, когда не знаешь, за что
+            хвататься. Вроде и проектную пора сдавать, и задачи хочется
+            порешать, и в теории получше разобраться, и жизнь не забыть пожить.
+            В такие моменты очень нужна концентрация. Вспомните, откуда вы её
+            черпали.
+          </p>
+          <p>Joji. Все его творчество просто шедевр.</p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">«Сейчас я здесь»</h2>
+        <div class="card-image-wrapper">
+          <img
+            class="card-image"
+            src="./images/mountain-horizon.png"
+            alt="Человек на горной вершине"
+            loading="lazy"
+          />
+          <span class="card-label" aria-hidden="true">Дальше</span>
+        </div>
+
+        <div class="card-body">
+          <p>
+            Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
+            Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с
+            окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И
+            этот мир постоянно меняется. Познать его полностью не получится, но
+            это тот случай, когда важен сам процесс познания. Ведь часто путь —
+            и есть результат.
+          </p>
+          <p>И я рад, что стал на этот путь.</p>
+          <div class="card-actions">
+            <button
+              class="card__icon-button"
+              type="button"
+              aria-label="Нравится"
+            >
+              <svg class="like-icon" viewBox="0 0 39 36" aria-hidden="true">
+                <g class="heart">
+                  <path
+                    class="contour"
+                    fill="currentColor"
+                    d="M9 3h9v3h3V3h9v3h3v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6v-3H3V9h3V6h3Z"
+                  />
+                  <path
+                    class="main-body"
+                    fill="white"
+                    d="M9 6h9v3h3V6h9v3h3v9h-3v3h-3v3h-3v3h-3v3h-3v-3h-3v-3h-3v-3H9v-3H6V9h3Z"
+                  />
+                  <path class="core" fill="white" d="M15 12h9v9h-9Z" />
+                </g>
+                <path
+                  class="sparks"
+                  fill="none"
+                  d="M0 0h3v3H0zM36 0h3v3h-3zM0 30h3v3H0zM36 30h3v3h-3z"
+                />
+              </svg>
+            </button>
+            <button class="button card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <button
+        class="button save-button"
+        type="button"
+        onclick="document.getElementById('save-dialog').showModal()"
+      >
+        <svg class="floppy-icon" viewBox="0 0 39 39" aria-hidden="true">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+    </main>
+
+    <dialog class="save-dialog" id="save-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-message">
+        <svg
+          class="floppy-icon dialog-icon"
+          viewBox="0 0 39 39"
+          aria-hidden="true"
+        >
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <p id="dialog-title">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <form method="dialog">
+        <button class="button dialog-button" type="submit">
+          <span class="button__text">ОК</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
