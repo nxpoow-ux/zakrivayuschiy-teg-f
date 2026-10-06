@@ -10,7 +10,7 @@
   --button-text-color: #fff;
   --label-stroke-color: #fff;
   --content-width: clamp(320px, 100%, 700px);
-  --header-padding: clamp(120px, 113.521px + 1.728vw, 139px);
+  --header-padding: clamp(120px, 117.1831px + 0.7512vw, 128px);
   --logo-size: clamp(49px, 43.366px + 1.502vw, 65px);
   --heading-size: clamp(14px, 10.831px + 0.845vw, 23px);
   --page-background:

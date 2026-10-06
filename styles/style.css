@@ -284,7 +284,11 @@
 
   .save-button {
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+  }
+
+  .save-button .button__text {
+    line-height: 1;
   }
 
   .save-button .floppy-icon {
